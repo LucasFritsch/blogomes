@@ -36,6 +36,10 @@ nav {
   gap: 2vw;
 }
 
+nav a:hover {
+  color: #ababab;
+}
+
 .header--barraPesquisa { 
   display: flex;
 }
