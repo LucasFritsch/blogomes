@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    color: black;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #DFDFDF;
+    font-family: 'Cormorant Garamond';
+  
+  }
+  
+  header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10vw;
+  }
+  
+  .header--logo {
+    font-size: 4vw;
+  }
+  
+  nav {
+    align-items: center;
+    display: flex;
+    font-size: 2.2vw;
+    font-weight: 600;
+    justify-content: space-between;
+    gap: 2vw;
+  }
+
+main {
+    padding: 30px 10vw;
+}
+  
+.título {
+    font-family: 'Raleway';
+    padding-bottom: 2vw;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 3vw;
+    font-weight: 500;
+}
+
+.corpo {
+    background-color: whitesmoke;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Bitter';
+    font-size: 1.7vw;
+    font-weight: 400;
+    gap: 1vw;
+    line-height: 2.5vw;
+    padding: 2vw;
+    text-align: justify;
+    text-indent: 6vw;
+}
