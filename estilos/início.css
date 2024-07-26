@@ -194,3 +194,110 @@ footer p {
 footer a {
   color: rgb(251, 110, 251);
 }
+
+@media(max-width: 480px) {
+  .header--logo {
+    font-size: 6vw;
+  }
+
+  .hero {
+    background-attachment: fixed;
+    background-image: url(https://images.pexels.com/photos/3551227/pexels-photo-3551227.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 70vh;
+  }
+
+  .hero--bordas {
+    background-image: url(../mídia/bordaHero.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+  }
+  
+  .hero--conteúdo h1 {
+    color: white;
+    font-size: 12vw;
+    padding-top: 20vw;
+    text-align: center;
+  }
+  
+  .hero--conteúdo p {
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 4vw;
+  }
+  
+  .hero--conteúdo i {
+    color: white;
+    display: block;
+    font-size: 10vw;
+    padding-top: 2vw;
+  }
+
+  .artigos--header {
+    font-size: 8vw;
+    margin-top: 5vw;
+    text-align: center;
+  }
+
+  .artigoContainer {
+    padding: 5vw 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 4vw;
+  }
+
+  .artigoItem {
+    width: 80vw;
+    font-size: 3vw;
+    margin: auto;
+  }
+
+  .artigoItem img {
+    height: 90vw;
+    width: 100%;
+    object-fit: cover;
+    margin: auto;
+  }
+
+  .artigoItem--textos {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    margin-top: 2vw;
+  }
+
+  .textos--dataHora {
+    font-size: 3vw;
+    font-family: 'Raleway';
+  }
+
+  .artigoItem h2 {
+    font-size: 6vw;
+  }
+
+  .artigoItem p {
+    color: rgb(0, 0, 0);
+    font-family: 'Raleway';
+    font-size: 4vw;
+    font-weight: 500;
+    line-height: 4vw;
+    text-align: justify;
+  }
+
+  footer h3 {
+    color: white;
+    font-weight: 500;
+    font-size: 3vh;
+  }
+  
+  footer p {
+    color: white;
+    font-size: 3vw;
+  }
+} 
